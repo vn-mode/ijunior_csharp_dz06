@@ -6,10 +6,10 @@ namespace vn_mode_csharp_dz06
     {
         static void Main(string[] args)
         {
-            int gold = 1;
+
             int countGold;
             int ourCrystals;
-            int priceOneCrystal = 3 * gold;
+            int priceOneCrystal = 3;
 
             Console.Write("Сколько у вас в кошельке золота? : ");
             countGold = Convert.ToInt32(Console.ReadLine());
